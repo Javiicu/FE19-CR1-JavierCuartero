@@ -1,0 +1,226 @@
+.top-navar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+.top-navar .navlink {
+  text-decoration: none;
+  padding: 7px;
+  border-radius: 7px;
+  color: black;
+}
+.top-navar #logo {
+  width: 15px;
+  height: 15px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-weight: bold;
+}
+
+.nalink {
+  text-decoration: none;
+  padding: 7px;
+  border-radius: 7px;
+  color: black;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.container img {
+  width: 100%;
+}
+.container .pizza {
+  position: relative;
+}
+.container .pizza p {
+  color: white;
+  background-color: gray;
+  opacity: 0.8;
+  padding: 20px 0;
+  font-size: 30px;
+  position: absolute;
+  height: 30px;
+  text-align: center;
+  width: 100%;
+  margin: -73px 0px 0px 0px;
+}
+.container .Hamburger {
+  position: relative;
+}
+.container .Hamburger p {
+  color: white;
+  background-color: gray;
+  opacity: 0.8;
+  padding: 20px 0;
+  font-size: 30px;
+  position: absolute;
+  height: 30px;
+  text-align: center;
+  width: 100%;
+  margin: -73px 0px 0px 0px;
+}
+.container .toast {
+  position: relative;
+}
+.container .toast p {
+  color: white;
+  background-color: gray;
+  opacity: 0.8;
+  padding: 20px 0;
+  font-size: 30px;
+  position: absolute;
+  height: 30px;
+  text-align: center;
+  width: 100%;
+  margin: -73px 0px 0px 0px;
+}
+.container .salmon {
+  position: relative;
+}
+.container .salmon p {
+  color: white;
+  background-color: gray;
+  opacity: 0.8;
+  padding: 20px 0;
+  font-size: 30px;
+  position: absolute;
+  height: 30px;
+  text-align: center;
+  width: 100%;
+  margin: -73px 0px 0px 0px;
+}
+.container .pasta {
+  position: relative;
+}
+.container .pasta p {
+  color: white;
+  background-color: gray;
+  opacity: 0.8;
+  padding: 20px 0;
+  font-size: 30px;
+  position: absolute;
+  height: 30px;
+  text-align: center;
+  width: 100%;
+  margin: -73px 0px 0px 0px;
+}
+.container .salad {
+  position: relative;
+}
+.container .salad p {
+  color: white;
+  background-color: gray;
+  opacity: 0.8;
+  padding: 20px 0;
+  font-size: 30px;
+  position: absolute;
+  height: 30px;
+  text-align: center;
+  width: 100%;
+  margin: -73px 0px 0px 0px;
+}
+.container .cookies {
+  position: relative;
+}
+.container .cookies p {
+  color: white;
+  background-color: gray;
+  opacity: 0.8;
+  padding: 20px 0;
+  font-size: 30px;
+  position: absolute;
+  height: 30px;
+  text-align: center;
+  width: 100%;
+  margin: -73px 0px 0px 0px;
+}
+.container .cupcakes {
+  position: relative;
+}
+.container .cupcakes p {
+  color: white;
+  background-color: gray;
+  opacity: 0.8;
+  padding: 20px 0;
+  font-size: 30px;
+  position: absolute;
+  height: 30px;
+  text-align: center;
+  width: 100%;
+  margin: -73px 0px 0px 0px;
+}
+.container .pancakes {
+  position: relative;
+}
+.container .pancakes p {
+  color: white;
+  background-color: gray;
+  opacity: 0.8;
+  padding: 20px 0;
+  font-size: 30px;
+  position: absolute;
+  height: 30px;
+  text-align: center;
+  width: 100%;
+  margin: -73px 0px 0px 0px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 7px;
+  border-radius: 7px;
+  color: white;
+  background-color: black;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer2 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.footimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.footimg img {
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
+}/*# sourceMappingURL=style.css.map */
